@@ -15,7 +15,7 @@ A simple docker container which lets users to login to the Sophos UTM Firewall C
 - Now run the following command to run and initialize the container :
 
   ```bash
-  docker run --name sophos-caa -v "$(pwd)/caa.conf":/root/.caa/caa.conf --network host ackr-8/sophos-caa:latest
+  docker run --name sophos-caa -v "$(pwd)/caa.conf":/root/.caa/caa.conf --network host ackr8/sophos-caa:latest
   ```
 
 ## Troubleshooting

@@ -4,7 +4,7 @@ A simple docker container which lets users to login to the Sophos UTM Firewall C
 
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/ackr-8/sophos-caa-docker/Build?label=Auto-build)
 
-![Docker Pulls](https://img.shields.io/docker/pulls/ackr8/sophos-caa?label=Docker%20pulls)
+![Docker Pulls](https://img.shields.io/docker/pulls/ackr8/sophos-caa?label=Docker%20Pulls)
 
 ## Setup
 

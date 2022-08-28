@@ -2,6 +2,10 @@
 
 A simple docker container which lets users to login to the Sophos UTM Firewall Captive Portal usually used by Universities and Enterprises.
 
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/ackr-8/sophos-caa-docker/Build?label=Auto-build)
+
+![Docker Pulls](https://img.shields.io/docker/pulls/ackr8/sophos-caa?label=Docker%20pulls)
+
 ## Setup
 
  - Download the config file from [here](https://raw.githubusercontent.com/ackr-8/sophos-caa-docker/main/.caa/caa.conf) and put it in a folder. 
@@ -11,7 +15,7 @@ A simple docker container which lets users to login to the Sophos UTM Firewall C
 - Now run the following command to run and initialize the container :
 
   ```bash
-  docker run --name sophos-caa -v "$(pwd)/caa.conf":/root/.caa/caa.conf --network host ackr-8/caa:latest
+  docker run --name sophos-caa -v "$(pwd)/caa.conf":/root/.caa/caa.conf --network host ackr-8/sophos-caa:latest
   ```
 
 ## Troubleshooting
@@ -45,7 +49,7 @@ You can donate to me using either UPI or with Paypal.
 
 ## References
 
-If you have stumbled upon this project searching for "Sophos Portal Auto Login for Linux" then checkout this gist for a detailed guide to setup the Agent on Linux hosts directly without docker.
+If you have stumbled upon this project searching for "Sophos Portal Auto Login for Linux" then checkout [this gist](https://gist.github.com/ackr-8/88a147812da9bcf39ef480903fb366b2) for a detailed guide to setup the Agent on Linux hosts directly without docker.
 
 ## Disclaimer
 

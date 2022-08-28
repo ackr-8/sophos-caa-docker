@@ -49,4 +49,6 @@ If you have stumbled upon this project searching for "Sophos Portal Auto Login f
 
 ## Disclaimer
 
+The code written by myself is licensed with AGPL V3 and any forks/contributions will follow the same.
+
 This project is in **no** way affiliated to Sophos Ltd.
